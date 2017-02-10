@@ -38,6 +38,9 @@ public class ControlFlowChallengePS {
         //       If the average of a, b, and c is within 2.5 of the target value, return "just right".
         //       If the average of a, b, and c is between the upper and lower bounds,
         //          but not within 2.5 of the target value, return "almost".
+        //
+        // Note: Be careful to avoid integer division when computing the average
+        //       Integer division explained - https://www.youtube.com/watch?v=ql3G1ZSe098
 
 
 
